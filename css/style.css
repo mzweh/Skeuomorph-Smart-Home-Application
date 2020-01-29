@@ -1,0 +1,173 @@
+
+html,body{
+    height: 100%;
+    border-top: 0px solid transparent;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    background-color: #ebf3fa;
+}
+
+/*=================================================== TYPOGRAPHY ===================================================*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+  
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+  
+h2{
+
+}
+
+h3{
+    font-size: 1.9em;
+}
+  
+p{
+    font-size: 1em;
+    color: #666;
+    font-weight: 400;
+}
+
+p strong {
+    color: #666;
+}
+
+p span{
+    color: #003B16;
+}
+
+ul{
+    color: #666;
+    font-weight: 400;
+}
+
+hr{
+    background-color: #dedede;
+}
+
+a{
+    outline: none !important;
+}
+  
+a:hover {
+    color: inherit;
+}
+
+
+/*=================================================== GLOBAL ===================================================*/
+
+.btn{
+    border-radius: 0.9em;
+    padding: 0.5em 1.5em;
+}
+.customWhite{
+    background-color: #edf3fa;
+    box-shadow: 3px 0px 10px 0px #d5e2ed;
+}
+
+.customWhite:before{
+    
+}
+
+.customWhite:after{
+
+}
+.btn.customWhite{
+    border: 2px solid #edf3fa;
+}
+.btn.customWhite:focus,
+.btn.customWhite.focus,
+.btn.customWhite.active,
+.btn.customWhite:active{
+    box-shadow: inset 6px 4px 4px 0px #d5e2ed, 1px 0px 0px 0px #d5e2ed;
+    background-color: #e3edf7;
+}
+.iconImg{
+    max-width: 40px;
+    width: 100%;
+}
+/*=================================================== HEADER ===================================================*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 501;
+    padding: 1em 1.5em;
+    height: 75px;
+}
+
+header .hamBurger{padding: 0.5em;}
+
+header .hamBurger .openMenu{
+    display: block;
+}
+
+header .hamBurger .closeMenu,
+.navShow header .hamBurger .openMenu{
+    display: none;
+}
+
+.navShow header .hamBurger .closeMenu{
+    display: block;
+}
+
+header h4{
+    color: #2c456d;
+}
+
+header .btn{
+
+}
+
+/*=================================================== MAIN ===================================================*/
+
+main{
+    margin-top: 73px;
+    padding-top: 1.5em;
+}
+
+main .mainWrapper{
+
+}
+
+.tabNav{
+    justify-content: space-between;
+}
+
+.tabNav .tabNavItem{
+    font-size: 1em;
+    font-weight: 500;
+    color: #2c456d;
+    text-shadow: 1px 0px 2px #ffffff;
+}
+
+
+
+/*=================================================== FOOTER ===================================================*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0em 1.5em 1em;
+
+}
+
+footer .footerNav{
+    border-top: 1px solid #ccc;
+    padding-top: 1em;
+    justify-content: space-between;
+}
