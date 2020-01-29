@@ -90,7 +90,7 @@ a:hover {
     background-color: #e3edf7;
 }
 .iconImg{
-    max-width: 40px;
+    max-width: 20px;
     width: 100%;
 }
 /*=================================================== HEADER ===================================================*/
@@ -127,9 +127,7 @@ header h4{
     color: #2c456d;
 }
 
-header .btn{
-
-}
+header .btn{padding: 1em 1.2em;}
 
 /*=================================================== MAIN ===================================================*/
 
@@ -152,9 +150,68 @@ main .mainWrapper{
     color: #2c456d;
     text-shadow: 1px 0px 2px #ffffff;
 }
+.tabPane{
+    padding-top: 1em;;
+}
+.bigBtn{display: flex;align-items: center;justify-content: space-between;padding: 0.7em 1em;border-radius: 3em;background-color: #e8f0f8;border: 2px solid #e8f0f8 !important;margin-bottom: 2em;}
 
+.bigBtn img{max-width: 35px;}
 
+.bigBtn .textDescription{width: 60%;}
+.bigBtn .textDescription h4{font-size: 1.5em;text-align: left;text-shadow: 0 0 3px #fff;color: #2c456d;margin-bottom: 0;}
 
+.bigBtn .textDescription h4 small{display: block;font-size: 0.6em;color: #717171;}
+.bigBtn span{
+    border-radius: 60%;
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    line-height: 2.5;
+    border-radius: 2em;
+    background-color: #eef4fa;
+}
+
+.bigBtn span img{
+    /* margin-right: 0; */
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.cardItem{
+    background-color: #e3edf7;
+    box-shadow: 3px 0px 10px 0px #d5e2ed;
+    border-radius: .9em;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.cardItem .cardIcon{
+    width: 50px;
+    height: 50px;
+    padding: 1em;
+    border-radius: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    background-color: #eef4fa;
+    box-shadow: inset 3px 0 6px 0 rgba(255, 255, 255, 0.2), 3px 3px 6px 3px #d5e2ed;
+}
+
+.cardItem .cardIcon .iconImg{
+    max-width: 100%;
+}
+
+.cardItem h3{
+    font-size: 1.2em;
+    margin-bottom: 0;
+    text-shadow: 0 0 0px #8c8c8c;
+}
+
+.cardItem h3 small{
+    display: block;
+    color: #8c8c8c;
+}
 /*=================================================== FOOTER ===================================================*/
 
 footer{
